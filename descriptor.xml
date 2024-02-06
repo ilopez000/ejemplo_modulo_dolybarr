@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dolibarr>
+  <module>
+    <name>MyTasks</name>
+    <description>Módulo de gestión de tareas</description>
+    <version>1.0</version>
+    <author>Bard</author>
+    <depends>main</depends>
+    <hooks>
+      <hook name="MenuLeft">mytasks_menuleft</hook>
+    </hooks>
+    <files>
+      <file>/mytasks/class/mytask.class.php</file>
+      <file>/mytasks/sql/mytasks.sql</file>
+    </files>
+  </module>
+</dolibarr>
